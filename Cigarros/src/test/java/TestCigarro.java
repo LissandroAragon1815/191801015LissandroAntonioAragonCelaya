@@ -3,7 +3,7 @@
 */
 import java.util.Scanner;
 public class TestCigarro {
-    public void main(String args[]){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese la marca de cigarros: ");
         String marca = scan.nextLine();
